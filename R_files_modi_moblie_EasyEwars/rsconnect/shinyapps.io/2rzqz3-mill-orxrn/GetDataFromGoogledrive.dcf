@@ -1,0 +1,13 @@
+name: GetDataFromGoogledrive
+title: GetDataFromGoogledrive
+username:
+account: 2rzqz3-mill-orxrn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10144362
+bundleId: 7784765
+url: https://2rzqz3-mill-orxrn.shinyapps.io/GetDataFromGoogledrive/
+when: 1696927685.93093
+lastSyncTime: 1696927685.93094
+asMultiple: FALSE
+asStatic: FALSE

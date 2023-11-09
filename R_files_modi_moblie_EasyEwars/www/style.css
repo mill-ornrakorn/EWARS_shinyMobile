@@ -1,0 +1,60 @@
+.segmented-raised .button:not(.button-outline){
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  margin: auto;
+  width: 50%;
+}
+
+.mb-10{
+  margin-bottom: 15rem;
+}
+
+
+.list ul ul {
+  padding-left: 0;
+}
+
+.panel-body{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.light .split-layout .page-content:not(.login-screen-content, .panel-content),
+.light .single-layout .page-content:not(.login-screen-content, .panel-content),
+.light .tab-layout .page-content:not(.login-screen-content, .panel-content),
+.light div.messages {
+  background-color: #fafdff;
+}
+
+/* input[type="checkbox"] {
+  accent-color: #b1daf5;
+  } */
+
+/* .checkboxBG{
+  background-color: #b1daf5;
+} */
+
+/* div.checkboxBG input[type="checkbox"]:checked + label {
+    background-color: #b1daf5;
+} */
+
+/*
+ .segmented-strong{
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+
+.segmented-strong button,
+.segmented-strong button.button-active,
+.segmented-strong .button.tab-link-active{
+  
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+*/

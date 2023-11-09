@@ -1,0 +1,13 @@
+name: testing
+title: testing
+username:
+account: 2rzqz3-mill-orxrn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9852346
+bundleId: 7825163
+url: https://2rzqz3-mill-orxrn.shinyapps.io/testing/
+when: 1697732888.50866
+lastSyncTime: 1697732888.50867
+asMultiple: FALSE
+asStatic: FALSE

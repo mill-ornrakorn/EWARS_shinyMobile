@@ -1,0 +1,16 @@
+{
+  "name": "EWARS Dashboard on mobile",
+  "short_name": "EWARS",
+  "description": "The Early Warning and Response System (EWARS) for Dengue Outbreaks",
+  "lang": "en-US",
+  "start_url": "https://2rzqz3-mill-orxrn.shinyapps.io/Ewars_moblie/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144"
+    }
+  ]
+}
