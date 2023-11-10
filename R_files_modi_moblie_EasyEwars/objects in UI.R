@@ -30,10 +30,11 @@ output_graphs<-
   f7Tab(title ="Runnin",
                     open = TRUE,
           tabName ="Runnin",
-             fluidRow(
-               column(12,
+             
+               
                       verbatimTextOutput("messageCheckData_1"),
                       div(
+                        id = "your_graph_id",
                         # style="max-height:500px; overflow-y: scroll; position: relative",
                         style=" overflow-y: scroll; position: relative",
                           # addSpinner(plotlyOutput("plot1",height ="80vw"), 
@@ -45,15 +46,14 @@ output_graphs<-
                         # plotlyOutput("plot1",height ="20%",width="50%")
                           # plotlyOutput("plot1",height ="60vw",width="60vw")
                           )
-                      )
-             )),
+                      
+             ),
   f7Tab(title ="Evaluation",
           tabName ="Evaluation",
-             fluidRow(
-               
-               column(12,
+             
                       verbatimTextOutput("messageCheckData_2"),
-                      div(style=" overflow-y: scroll; position: relative",
+                      div(id = "your_graph_id",
+                        style=" overflow-y: scroll; position: relative",
                           # addSpinner(plotlyOutput("plot2",inline =F,height ="80vw"), 
                           #            spin = "bounce", color = "#007aff"
                           #              )
@@ -63,16 +63,16 @@ output_graphs<-
                           # plotlyOutput("plot2",height ="20%",width="50%")
                           # plotlyOutput("plot2",inline =F,height ="20%",width="50%")
                           )
-                      )
+                      
                
-             )),
+             ),
   f7Tab(title ="Run Eval",
         # title ="Runnin Evaluation",
           tabName ="Runnin_Evaluation",
-             fluidRow(
-               column(12,
+             
                       verbatimTextOutput("messageCheckData_3"),
-                      div(style=" overflow-y: scroll; position: relative",
+                      div(id = "your_graph_id",
+                        style=" overflow-y: scroll; position: relative",
                           # addSpinner(plotlyOutput("plot3",height ="80vw"), 
                           #            spin = "bounce", color = "#007aff"
                           # )
@@ -82,8 +82,8 @@ output_graphs<-
                           # plotlyOutput("plot3",height ="20%",width="50%")
                           # plotlyOutput("plot3",height ="20%",width="50%")
                           )
-                      )
-             ))
+                      
+             )
   )
 
 

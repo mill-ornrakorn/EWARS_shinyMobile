@@ -5,9 +5,9 @@ account: 2rzqz3-mill-orxrn
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10398590
-bundleId: 7894726
+bundleId: 7911810
 url: https://2rzqz3-mill-orxrn.shinyapps.io/Ewars_moblie/
-when: 1699283177.72612
-lastSyncTime: 1699283177.72613
+when: 1699633048.2646
+lastSyncTime: 1699633048.26461
 asMultiple: FALSE
 asStatic: FALSE

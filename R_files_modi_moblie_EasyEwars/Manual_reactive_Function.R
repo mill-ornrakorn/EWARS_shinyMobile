@@ -435,7 +435,8 @@ out_x<-eventReactive({input$number_of_cases
                            
                            
                            # ------------ plot 1 --------------
-                           (plot1<-plot_ly(dat_plot1, x = ~obs_no,width=900,height=570) %>% 
+                           # เอา w,h ใน plot_ly ออก
+                           (plot1<-plot_ly(dat_plot1, x = ~obs_no) %>% 
                                add_ribbons(ymin=0,ymax=~outbreak_moving_limit,name=endmic,
                                            opacity=0.7) %>% 
                                add_lines(y=~outbreak,color=I("tomato2"),name="Cases per 1000 pop") %>% 
@@ -456,14 +457,15 @@ out_x<-eventReactive({input$number_of_cases
                                             scaleanchor = "y2",
                                             showline=F),
                                  legend=list(orientation="h",
-                                             xanchor="center"
+                                             xanchor="center",
+                                             x = 0.5, y = -0.3 # ปรับตำแหน่งของ legend
                                              # itemclick = FALSE,
                                              # itemdoubleclick = FALSE,
                                              # groupclick = FALSE
                                              ),
                                  # clickmode = none,
                                  dragmode = "pan",
-                                 margin=list(b=50,r=300)
+                                 margin=list(t=100) #t = top, b = bottom, r = right # ปรับระยะห่างของกราฟ
                                ) 
                             # ยังไม่ได้ลอง
                             # %>% config(responsive = TRUE) 
@@ -487,7 +489,9 @@ out_x<-eventReactive({input$number_of_cases
                            dat_plot2<-data.frame(ungroup(dat_plot2)) %>% dplyr::mutate(plot_n=1:n())
                            lim_prob<-max(dat_plot2$prob_outbreak,na.rm=T)
                            
-                           plot2<-plot_ly(dat_plot2, x = ~plot_n,width=800,height=570) %>% 
+                           # ------------ plot 2 --------------
+                           # เอา w,h ใน plot_ly ออก
+                           plot2<-plot_ly(dat_plot2, x = ~plot_n) %>% 
                              add_ribbons(ymin=0,ymax=~outbreak_moving_limit,name=endmic,
                                          opacity=0.7) %>% 
                              add_lines(y=~outbreak,color=I("tomato2"),name="Cases per 1000 pop") %>% 
@@ -508,9 +512,11 @@ out_x<-eventReactive({input$number_of_cases
                                     ),
                                     yaxis=list(title="Cases per 1000 pop",fixedrange=T,rangemode="tozero"),
                                     legend=list(orientation="h",
-                                                xanchor="center"),
+                                                xanchor="center",
+                                                x = 0.5, y = -0.5 # ปรับตำแหน่งของ legend
+                                                ),
                                     dragmode = "pan",
-                                    margin=list(b=50,r=200)
+                                    margin=list(t=100) #t = top, b = bottom, r = right # ปรับระยะห่างของกราฟ
                              ) 
                            
                            
@@ -524,8 +530,9 @@ out_x<-eventReactive({input$number_of_cases
                            tick_points<-which(c(dat_plot3$week_choose)==T)
                            tick_text<-format.Date(dat_plot3$date[tick_points],"%b%y")
                            
-                           
-                           plot3<-plot_ly(dat_plot3, x = ~obs_no,width=900,height=600) %>% 
+                           # ------------ plot 3 --------------
+                           # เอา w,h ใน plot_ly ออก
+                           plot3<-plot_ly(dat_plot3, x = ~obs_no) %>% 
                              add_ribbons(ymin=0,ymax=~outbreak_moving_limit,name=endmic,
                                          opacity=0.7) %>% 
                              #add_lines(y=~outbreak_moving_limit,name=endmic,
@@ -548,9 +555,11 @@ out_x<-eventReactive({input$number_of_cases
                                                  ticktext=tick_text,zeroline=F,fixedrange=T),
                                     yaxis=list(title="Cases per 1000 pop",zeroline=F,fixedrange=T,rangemode="tozero"),
                                     legend=list(orientation="h",
-                                                xanchor="center"),
+                                                xanchor="center",
+                                                x = 0.5, y = -0.5 # ปรับตำแหน่งของ legend
+                                                ),
                                     dragmode = "pan",
-                                    margin=list(b=50,r=300)
+                                    margin=list(t=100) #t = top, b = bottom, r = right # ปรับระยะห่างของกราฟ
                              ) 
                            
                            re_p<-list(plot1,plot2,plot3,dat_plot2)

@@ -28,7 +28,7 @@
 
 
 .tabbar-labels {
-  --f7-toolbar-height: 70px;
+  --f7-toolbar-height: 100px;
 }
 
 .tabbar-labels .link, .tabbar-labels .tab-link {
@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+.your_graph_id {
+  width: 100%;
+  height: 400px; 
+}
 /* input[type="checkbox"] {
   accent-color: #b1daf5;
   } */
