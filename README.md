@@ -13,21 +13,38 @@ Access the demo account:
 
 
 ## 📱 How to add EWARS to the mobile app
+<details>
+    <summary>iOS 🍎 (Click here)</summary>
 
-- iOS
-    - English Version 
+- English Version 
     <p align="center">
-    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verEN" height="500">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verEN" height="400">
     </p>
 
-    - Thai Version
+- Thai Version
     <p align="center">
-    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verTH" height="500">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verTH" height="400">
     </p>
+
+</details>
+
+<details>
+    <summary>Android 🤖 (Click here)</summary>
+- English Version 
+    <p align="center">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(Android)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (Android) verEN" height="400">
+    </p>
+
+- Thai Version
+    <p align="center">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(Android)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (Android) verTH" height="400">
+    </p>
+
+</details>
 
 ## 🎬Demo video
 
-[Click here for a demo video.](#)
+[Click here for a demo video.](https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/demovdo.mp4)
 
 
 ## 📄 Credits Section
