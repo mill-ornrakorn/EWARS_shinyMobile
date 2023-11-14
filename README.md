@@ -44,7 +44,9 @@ Access the demo account:
 
 ## 🎬Demo video
 
-[Click here for a demo video.](https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/demovdo.mp4)
+- English Version: [Click here](https://www.canva.com/design/DAF0KtoBnOM/6A0mhB1n4aEtkUrJEAm4sw/view?utm_content=DAF0KtoBnOM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+- Thai Version: [Click here](https://www.canva.com/design/DAF0KlQzbwc/H28pBN1uoels_o5S6LpefQ/view?utm_content=DAF0KlQzbwc&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 
 ## 📄 Credits Section
