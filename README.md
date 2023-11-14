@@ -1,12 +1,12 @@
-# EWARS shinyMobile 🔍
-This EWARS app has been modified from the original EWARS app by incorporating Shiny Mobile to enhance the app's UI for better compatibility with mobile phones. Additionally, Shiny Manager is used to manage the authentication system.
+# EWARS shinyMobile 🔍   
+This EWARS app has been modified from [the original EWARS app](https://alramadona.shinyapps.io/Demo_Automated_Ewars/) by incorporating Shiny Mobile to enhance the app's UI for better compatibility with mobile phones. Additionally, Shiny Manager is used to manage the authentication system.
 
 
 ## ✨Demo
 
-[Click here for a demo.](https://2rzqz3-mill-orxrn.shinyapps.io/Ewars_moblie/)
+[Click here for a demo app.](https://2rzqz3-mill-orxrn.shinyapps.io/Ewars_moblie/)
 
-Access the demo account:
+The demo account:
 
     username: shiny
     password: shiny
@@ -18,12 +18,12 @@ Access the demo account:
 
 - English Version 
     <p align="center">
-    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verEN" height="400">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verEN" >
     </p>
 
 - Thai Version
     <p align="center">
-    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verTH" height="400">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(iOS)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (iOS) verTH" >
     </p>
 
 </details>
@@ -32,12 +32,12 @@ Access the demo account:
     <summary>Android 🤖 (Click here)</summary>
 - English Version 
     <p align="center">
-    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(Android)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (Android) verEN" height="400">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(Android)%20verEN.png?raw=true" alt= "how to add EWARS to the mobile app (Android) verEN" >
     </p>
 
 - Thai Version
     <p align="center">
-    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(Android)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (Android) verTH" height="400">
+    <img src="https://github.com/mill-ornrakorn/EWARS_shinyMobile/blob/main/pic%20for%20read%20me/add%20EWARS%20to%20the%20mobile%20app%20(Android)%20verTH.png?raw=true" alt= "how to add EWARS to the mobile app (Android) verTH" >
     </p>
 
 </details>
@@ -51,7 +51,7 @@ Access the demo account:
 
 ## 📄 Credits Section
 - The majority of the app has been built by the **World Health Organization**. 
-
+    - 💻 [The original EWARS app](https://alramadona.shinyapps.io/Demo_Automated_Ewars/)
     - 📖 [Operational guide](https://drive.google.com/file/d/1MJWocIyu3Ecdy950w0Z2d9i50hceEFA1/view)
     - 👨‍💻 [R scripts](https://umeauniversity-my.sharepoint.com/personal/odse0001_ad_umu_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fodse0001%5Fad%5Fumu%5Fse%2FDocuments%2Fewars%5Fdashboard%5Ffiles%2FR%5Ffiles&ga=1)
     - 📃 [Demo data](https://drive.google.com/file/d/1ujlq5oZVSF8dg7A3KN6Csw-5LsEWqYzF/view)
