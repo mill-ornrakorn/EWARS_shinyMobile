@@ -495,7 +495,7 @@ dashboad_elements_I<-f7Tab(# title = HTML("</br>Dashboard I"),
                            active = TRUE,
                            scrollable = TRUE,
          fluidPage(
-           style = "max-height: 80vh; overflow-y: auto;" ,
+           style = "overflow-y: auto;" ,
            h3("Dashboard I", style = "text-align: center;"),
            #------------------------
            # # เพิ่มอันใหม่ ที่เป็น Get Data from Google drive ตรงนี้
@@ -533,7 +533,7 @@ dashboad_elements_restricted_I<-f7Tab(title = HTML("</br>Dashboard I"),
                                       active = TRUE,
                                       scrollable = TRUE,
                               fluidPage(
-                                style = "max-height: 80vh; overflow-y: auto;" ,
+                                style = "overflow-y: auto;" ,
                                 row_elements1,    
                                 f7Accordion(row_elements2_restricted)
                                 
@@ -703,7 +703,7 @@ dashboad_elements_Risk_mapping<-f7AccordionItem(title = "Risk mapping",
 # ----------- dashboad_elements_II  -------------
 dashboad_elements_II<-f7Tab(#title = HTML("</br>Dashboard II"),
                             tabName ="Dashboard_II",
-                            style = "max-height: 80vh; overflow-y: auto;" ,
+                            style = "overflow-y: auto;" ,
                             icon = f7Icon("doc_text_fill"),
                             # icon = f7Icon("doc_text_search"),
                             h3("Dashboard II", style = "text-align: center;"),
@@ -787,7 +787,7 @@ dashboad_elements_II<-f7Tab(#title = HTML("</br>Dashboard II"),
 # ----------- dashboad_elements_III  -------------
 dashboad_elements_III<-f7Tab(#title = HTML("</br>Help"),
                              tabName ="Help",
-                             style = "max-height: 80vh; overflow-y: auto;" ,
+                             style = "overflow-y: auto;" ,
                              h3("Help", style = "text-align: center;"),
                              icon = f7Icon("question_circle_fill"),
                                 tags$br(),
@@ -823,7 +823,7 @@ dashboad_elements_III<-f7Tab(#title = HTML("</br>Help"),
 # ----------- dashboad_elements_IV  -------------
 dashboad_elements_IV<-f7Tab(#title = HTML("</br>R scripts"),
                             tabName ="R_scripts_and_Files",
-                            style = "max-height: 80vh; overflow-y: auto;" ,
+                            style = "overflow-y: auto;" ,
                             h3("R scripts", style = "text-align: center;"),
                             icon = f7Icon("folder_fill"),
                                tags$br(),
@@ -890,18 +890,18 @@ remove_user<-f7Tab(title ="Delete users",
                    
 
 
-admin_page<-f7Tab(#title =HTML("</br>Admin page"),
-                  tabName ="Admin_page",
-                  style = "max-height: 80vh; overflow-y: auto;" ,
-                  h3("Admin Page", style = "text-align: center;"),
-                  icon = f7Icon("gear_alt_fill"),
-                     f7Tabs(
-                       style = "strong",
-                       animated = TRUE,
-                       swipeable = FALSE,
-                        add_user,
-                        remove_user)
-)
+# admin_page<-f7Tab(#title =HTML("</br>Admin page"),
+#                   tabName ="Admin_page",
+#                   style = "overflow-y: auto;" ,
+#                   h3("Admin Page", style = "text-align: center;"),
+#                   icon = f7Icon("gear_alt_fill"),
+#                      f7Tabs(
+#                        style = "strong",
+#                        animated = TRUE,
+#                        swipeable = FALSE,
+#                         add_user,
+#                         remove_user)
+# )
 
 #------ UI Main ------------
 
@@ -932,7 +932,7 @@ ui_yes<-f7TabLayout(
                        
                        dashboad_elements_II,
                       
-                       admin_page,
+                       # admin_page,
                        
                        #dashboad_elements_Risk_mapping,
                        
@@ -999,7 +999,7 @@ f7Tabs( style = "segmented",
                     
                     dashboad_elements_II,
                     
-                    admin_page,
+                    # admin_page,
                     
                     #dashboad_elements_Risk_mapping,
                     
