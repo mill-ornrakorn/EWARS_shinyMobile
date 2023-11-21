@@ -792,6 +792,7 @@ dashboad_elements_III<-f7Tab(#title = HTML("</br>Help"),
                              icon = f7Icon("question_circle_fill"),
                                 tags$br(),
                                 tags$br(),
+                            tags$div(class = "pd-20",
                                 tags$div(
                                   HTML(paste(tags$strong("Early Warning and Response System for Dengue Outbreaks: Operational Guide using the web-based Dashboard"), 
                                              tags$a(href="https://drive.google.com/file/d/1MJWocIyu3Ecdy950w0Z2d9i50hceEFA1/view?usp=sharing", target="_blank", tags$br(),tags$b(" Operational Guide")),
@@ -811,8 +812,7 @@ dashboad_elements_III<-f7Tab(#title = HTML("</br>Help"),
                                     HTML(paste(tags$strong("Risk mapping demo files"), 
                                                tags$a(href="https://drive.google.com/drive/folders/1GXZ6vwEONEqxvUjLB4QMG0aduKkyIGIF?usp=sharing", target="_blank", tags$br(),tags$b("Risk mapping demo files")),
                                                sep = ""))),
-                                  
-                              
+                            ),
                                 tags$br(),
                                 tags$br()
                                 
@@ -828,7 +828,7 @@ dashboad_elements_IV<-f7Tab(#title = HTML("</br>R scripts"),
                             icon = f7Icon("folder_fill"),
                                tags$br(),
                                tags$br(),
-                               tags$div(
+                               tags$div(class = "pd-20",
                                  HTML(paste(tags$strong("R scripts and Files"), 
                                             tags$a(href="https://umeauniversity-my.sharepoint.com/:f:/g/personal/odse0001_ad_umu_se/EpwpHBzDg2pIr6pZPIMtEnoBvVJUHSL2NZ97RoOQi6sx7A?e=225F2c", target="_blank", tags$br(),tags$b("App R scripts and files")),
                                             sep = ""))
